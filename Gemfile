@@ -46,3 +46,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#Haml (HTML Abstraction Markup Language) is a layer on top of HTML or XML that's designed to
+#express the structure of documents in a non-repetitive, elegant, and easy way by using indentation
+#rather than closing tags and allowing Ruby to be embedded with ease. It was originally envisioned as a
+#plugin for Ruby on Rails, but it can function as a stand-alone templating engine.
+gem 'haml', '~> 4.0', '>= 4.0.7'
+
+# Use Unicorn as the app server
+gem 'unicorn'
