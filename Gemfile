@@ -55,3 +55,7 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 
 # Use Unicorn as the app server
 gem 'unicorn'
+
+## UI related
+#gem 'jquery-turbolinks'
+gem 'haml-rails'
